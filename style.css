@@ -1,0 +1,135 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: linear-gradient(to right, #630b1e, #ec78f9); 
+  font-family: 'Krub', sans-serif;
+}
+
+.main {
+  max-width: 45rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.titulo {
+  font-size: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  margin: auto;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+.titulo span {
+  font-weight: bold; 
+}
+
+.box {
+  padding: 1rem;
+  margin: 0 1rem 0 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5rem;
+  height: auto;
+}
+
+label {
+  color: white;
+  background-color: #630b1e;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color:#630b1e;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:#ec78f9;
+  color: rgb(39, 39, 39);
+}
+
+.text-input {
+  border-radius: 0.5rem;
+  border: 2px solid #630b1e;
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-family: sans-serif;
+}
+.text-input:hover {
+  border-radius: 0.5rem;
+  border: 2px solid #ec78f9;
+  
+}
+.error {
+  background-color: #ec78f9;    
+  padding: 1rem;    
+  font-size: 1.3rem;    
+  margin: 1rem auto 0;
+  color: black;   
+  text-align: center; 
+  text-transform: uppercase;
+  font-weight: bold;    
+  border-radius: 0.5rem;
+}
+
+.footer {
+  background-color: #f9f6f4;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #630b1e;  
+  padding: 20px;
+  max-width: 45rem;
+  margin: auto;
+}
+
+.footer .corazon {  
+  color: red;
+  font-weight: bold;
+}
+
+.footer span {  
+  font-weight: bold;
+}
